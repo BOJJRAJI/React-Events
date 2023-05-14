@@ -1,0 +1,38 @@
+.event {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.event-image {
+  height: 150px;
+  width: 250px;
+}
+.event-name {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+}
+.event-location {
+  font-size: 14px;
+  font-family: 'Roboto';
+
+  color: #f8fafc;
+}
+.event-button {
+  border: none;
+  background-color: transparent;
+}
+.active-event-image {
+  height: 150px;
+  width: 250px;
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+.event-image {
+  height: 150px;
+  width: 250px;
+}

@@ -1,0 +1,25 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.events-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #323f4b;
+  padding-left: 20px;
+}
+.events-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+}
+.events-lists-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
